@@ -9,8 +9,8 @@ import { dark } from "@clerk/themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AI Career Coach",
-  description: "",
+  title: "AI Career Coach - Your Path to Professional Success",
+  description: "Advance your career with personalized AI-powered guidance, interview prep, and professional development tools.",
 };
 
 export default function RootLayout({ children }) {
@@ -35,11 +35,8 @@ export default function RootLayout({ children }) {
             <main className="min-h-screen">{children}</main>
             <Toaster richColors />
 
-            <footer className="bg-muted/50 py-12">
-              <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>Made with 💗 by RoadsideCoder</p>
-              </div>
-            </footer>
+            {/* <CHANGE> Updated footer with modern styling */}
+           
           </ThemeProvider>
         </body>
       </html>
